@@ -1,0 +1,117 @@
+body,h1,p,footer {
+    margin: 0;
+    padding: 0;
+}
+body,h1 {
+    background-image: url('images/lil.jpeg');
+    background-size: cover;
+}
+
+header {
+    background-image: url('images/gold.jpeg');
+    background-position: center;
+    color: black;
+    text-align: center;
+    padding: 20px;
+}
+
+
+h1 {
+    font-family: 'Dancing Script', cursive;
+    font-size: 3rem;
+    background-image: url('images/gold.jpeg');
+    background-position: 10px;
+    border-radius: 20px;
+    text-transform: uppercase;
+}
+
+p {
+    font-family:'Dancing Script', cursive;
+    font-size: 1rem;
+    color: black;
+    font-style: italic;
+   
+    backface-visibility: 100%;
+}
+
+main {
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+article {
+    text-align: center;
+    color: yellow;
+    line-height: 1.5;
+    background-image: url('images/stud.jpeg');
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: yellow;
+}
+p img {
+    max-width: 30%;
+    display: block;
+    border-radius: 10px;
+    
+    margin: 0 auto 10px;}
+header {
+    
+    background-image: url('/images/lil.jpeg');
+}
+article p {
+    animation: fadein 2s;
+}
+
+@keyframes fadein {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+main {
+    background-image: url('');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+a {
+    text-decoration: none;
+    color: green;
+
+    transition: color 0.3s ease-in-out;
+}
+
+a:hover {
+    color: #333;
+}
+audio {
+    background-image: url('images/gold.jpeg');
+
+}
+footer {
+    font-family: 'Dancing Script', cursive;
+    text-align: center;
+    font-weight: bold;
+    background-image: url('images/gold.jpeg');
+    color: black;
+    padding: 10px;
+    border-radius: 20px;
+}
+.flexingmoney {
+    font-size: 1.2rem;
+    color: red;
+    font-family: 'Lobster', cursive;
+
+}
+.threatening {  
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: green;
+    font-family: 'Lora', serif;}
+.challenging {
+    font-size: 1.2rem;
+    color: purple;
+    font-family: 'Pacifico', sans-serif;
+}
